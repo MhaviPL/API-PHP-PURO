@@ -1,5 +1,9 @@
 <?php 
 
+require_once 'src/Config/Database.php';
+require_once 'src/Models/Usuario.php';
+
+
 header("Content-Type: application/json; charset=UTF-8");
 
 //Descobrir qual rota foi chamada
