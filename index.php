@@ -13,4 +13,6 @@ $id = $rota[1] ?? ''; //   /id
 
 $metodo = $_SERVER['REQUEST_METHOD'];
 
+
+
 ?>
