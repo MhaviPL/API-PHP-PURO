@@ -1,0 +1,4 @@
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME}%
+RewriteCond %{REWRITE_FILENAME}%
+RewriteRule ^(.*)$ index.php [QSA,L]
