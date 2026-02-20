@@ -22,9 +22,11 @@
                 $this->conn->exec("set names utf8");
        
             } catch(PDOException $e){
-                echo "Erro na conexão: " . $e->getMessage();
+                die ("Erro na conexão: " . $e->getMessage());
 
             }
+
+            return $this->conn;
         }
     }
 ?>
