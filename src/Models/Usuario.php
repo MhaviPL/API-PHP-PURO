@@ -11,7 +11,7 @@ class Usuario{
     }
 
     public function buscarTodos(){
-        $query = "SELECT id, nome, email, FROM " . $this->table;
+        $query = "SELECT id, nome, email FROM " . $this->table;
         $stmt = $this->conn->prepare($query);
         $stmt->execute();
 
